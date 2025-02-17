@@ -13,7 +13,7 @@
     "web-vitals": "^2.1.4"
   },
 
-  "homepage": "https://geoffreyherman.github.io/portfolio",
+  "homepage": "https://GeoffreyHPro.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",

@@ -11,7 +11,12 @@ const project1 = new InformationProject(
 );
 
 const project2 = new InformationProject(
-    "zfezf", "fezf", "fezfz", "zefz");
+    "https://github.com/GeoffreyHPro/animeList",
+    `Application mobile permettant de consulter tous les animés existants venant d'une API
+    distante. Il est possible de faire des recherches en fonction de diffèrents paramètres`,
+    "fezfz",
+    "zefz"
+);
 const project3 = new InformationProject(
     "https://github.com/GeoffreyHPro/Binpack",
     `Application permettant de résoudre le problème du BinPack. Les résolutions permettent

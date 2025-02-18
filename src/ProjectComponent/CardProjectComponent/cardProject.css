@@ -13,6 +13,7 @@
 .card-container {
     perspective: 1000px;
     width: 100%;
+    min-width: 250px;
     height: 450px;
     min-height: 150px;
     padding: 20px

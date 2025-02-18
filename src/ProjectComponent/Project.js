@@ -11,13 +11,13 @@ export function Project() {
         <br></br>
         <div className='container'>
             <div className='row'>
-                <div className="col-6">
+                <div className="col-md-6 col-12">
                     <CardProject title={"ecoFridge"} img={"ecoFridge.webp"} information={listProjects[0]} listTag={['Angular', 'Java Spring Boot', "API REST"]}></CardProject>
                     <br></br>
                     <br></br>
                     <CardProject title={"AnimeList"} img={"animes.webp"} information={listProjects[1]} listTag={['Flutter', 'BLoC']}></CardProject>
                 </div>
-                <div className="col-6 mx-auto">
+                <div className="col-md-6 col-12 mx-auto">
                     <CardProject title={"BinPack"} img={"binpack.webp"} information={listProjects[2]} listTag={['Java Spring Boot', "API REST"]}></CardProject>
                     <br></br>
                     <br></br>

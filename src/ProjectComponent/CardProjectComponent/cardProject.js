@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './cardProject.css'
-import { Tag } from '../../TagComponent/tag'
+import { Tag } from '../TagComponent/tag'
 
 export function CardProject({ title, img, information, listTag }) {
     return <div>

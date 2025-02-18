@@ -1,7 +1,6 @@
 import './tag.css'
 
 export function Tag({ tags }) {
-
     const getTagColor = (tag) => {
         switch (tag) {
             case 'React':
@@ -32,19 +31,25 @@ export function Tag({ tags }) {
                 return [
                     'rgb(221, 114, 13)',
                     "0 0 10px rgb(243, 139, 3), 0 0 20px rgb(243, 103, 10), 0 0 30px rgb(97, 59, 10)",
-                    "2px solid rgb(136, 85, 8)"
+                    "2px solid rgb(255, 156, 7)"
                 ];
             case 'WebFlux':
                 return [
                     'rgb(95, 11, 145)',
                     "0 0 10px rgb(157, 15, 223), 0 0 20px rgb(102, 13, 114), 0 0 30px rgb(229, 15, 236)",
-                    "2px solid rgb(75, 7, 95)"
+                    "2px solid rgb(188, 9, 243)"
                 ];
             case 'BLoC':
                 return [
                     'rgb(41, 124, 124)',
                     "0 0 10px rgb(17, 216, 206), 0 0 20px rgb(18, 197, 182), 0 0 30px rgb(35, 161, 41)",
                     "2px solid rgba(5, 108, 134, 0.99)"
+                ];
+            case 'Test':
+                return [
+                    'rgb(151, 124, 5)',
+                    "0 0 10px rgb(241, 245, 12), 0 0 20px rgb(238, 234, 18), 0 0 30px rgb(236, 240, 10)",
+                    "2px solid rgba(255, 230, 5, 0.99)"
                 ];
             default:
         }

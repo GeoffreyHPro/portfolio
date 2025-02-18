@@ -21,7 +21,9 @@ const project3 = new InformationProject(
 );
 const project4 = new InformationProject(
     "https://github.com/GeoffreyHPro/paymentExerciceWebFlux",
-    ``,
+    `Application composé d'une API REST. Cette API permet d'ajouter, de lire et de modifier des paiements
+    bancaires. Si le paiement est fait ou est en cours de paiement, il n'est pas modifiable. Cette API a
+    été faite en Spring WebFlux`,
     "fezfz",
     "zefz"
 );

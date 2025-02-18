@@ -1,13 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './cardProject.css'
-import { Tag } from './../TagComponent/tag'
+import { Tag } from '../../TagComponent/tag'
 
-export function CardProject({ title, img, information }) {
-    const items = ['React', 'Angular']
-
+export function CardProject({ title, img, information, listTag }) {
     return <div>
         <div>
-            <Tag tags={items}></Tag>
+            <Tag tags={listTag}></Tag>
         </div>
         <div class="card-container">
             <div class="card">
@@ -23,7 +21,7 @@ export function CardProject({ title, img, information }) {
                     }}>
                     <div>{information.description}</div>
                     <br></br>
-                    <a href={information.urlProject}>{information.urlProject}</a>
+                    Github : <a href={information.urlProject}>{information.urlProject}</a>
                 </div>
             </div>
         </div>

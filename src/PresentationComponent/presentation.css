@@ -1,6 +1,6 @@
 #content {
     color: white;
-    height: 250px;
+    height: auto;
     background-image: linear-gradient(to bottom right, rgb(194, 95, 28), blue);
     padding: 25px;
 }

@@ -6,7 +6,7 @@ import { listProjects } from '../data/Projects'
 export function Project() {
     return <div id="ProjectContent">
         <br></br>
-        <h1>Projects</h1>
+        <h1>PROJETS</h1>
         <br></br>
         <br></br>
         <div className='container'>

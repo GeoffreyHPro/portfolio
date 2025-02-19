@@ -1,8 +1,7 @@
 export class InformationProject {
-    constructor(urlProject, description, front, back) {
+    constructor(urlProject, description, urlTest) {
         this.urlProject = urlProject;
         this.description = description;
-        this.front = front;
-        this.back = back;
+        this.urlTest = urlTest;
     }
 }

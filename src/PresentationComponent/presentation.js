@@ -9,8 +9,8 @@ export function Presentation() {
             <br></br>
             <div style={{
                 textAlign: 'justify',
-                width: "70%",
-                margin: "auto"
+                width: "80%",
+                margin: "auto",
             }}>
                 <h2>PROFIL :</h2>
                 <br></br>
@@ -22,7 +22,7 @@ export function Presentation() {
             <br></br>
             <br></br>
             <div style={{
-                width: "70%",
+                width: "80%",
                 margin: "auto",
                 textAlign: "left"
             }}>
@@ -30,7 +30,7 @@ export function Presentation() {
             </div>
 
             <div id='contact' className="row" style={{
-                width: "70%",
+                width: "80%",
                 margin: "auto"
             }}>
                 <div className='col-md-6 col-12' style={{
@@ -54,11 +54,13 @@ export function Presentation() {
                     <div>
                         <a href="https://github.com/GeoffreyHPro"
                             style={{
-                                color: "black"
+                                color: "black",
+                                whiteSpace: "normal",
+                                overflowWrap: "break-word"
                             }}>
                             <Github size={24} />
                         </a>
-                        https://www.linkedin.com/in/hermangeoffrey
+                        https://github.com/GeoffreyHPro
                     </div>
                 </div>
                 <div className='col-md-6 col-12 mx-auto' style={{
@@ -76,7 +78,7 @@ export function Presentation() {
                         <Mail style={{
                             marginRight: "15px"
                         }} size={24} />
-                        06 14 27 73 87
+                        geoffreyherman19021998@gmail.com
                     </div>
                 </div>
             </div>

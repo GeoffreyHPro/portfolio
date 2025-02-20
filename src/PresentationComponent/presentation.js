@@ -71,8 +71,8 @@ export function Presentation() {
                 </div>
                 <div className='col-md-6 col-12' style={{
                     textAlign: "left",
+                    padding: "15px",
                 }}>
-                    <br></br>
                     <div style={{
                         whiteSpace: "normal",
                         overflowWrap: "break-word",
@@ -86,7 +86,7 @@ export function Presentation() {
                         https://www.linkedin.com/in/hermangeoffrey
                     </div>
                     <br></br>
-                    <div>
+                    <div >
                         <a href="https://github.com/GeoffreyHPro"
                             style={{
                                 color: "black",
@@ -98,24 +98,27 @@ export function Presentation() {
                         https://github.com/GeoffreyHPro
                     </div>
                 </div>
-                <div className='col-md-6 col-12 mx-auto' style={{
+                <div className='col-md-6 col-12' style={{
                     textAlign: "left",
                     padding: "15px",
-                    whiteSpace: "normal",
-                    overflowWrap: "break-word",
                 }}>
-                    <br></br>
-                    <div>
+                    <div style={{
+                        whiteSpace: "normal",
+                        overflowWrap: "break-word",
+                    }}>
                         <Phone style={{
-                            marginRight: "15px",
-                            whiteSpace: "normal",
-                            overflowWrap: "break-word",
+                            marginRight: "15px"
                         }} size={24} />
                         06 14 27 73 87
                     </div>
                     <br></br>
-                    <div>
-                        <Mail size={24} />
+                    <div style={{
+                        whiteSpace: "normal",
+                        overflowWrap: "break-word",
+                    }}>
+                        <Mail style={{
+                            marginRight: "15px"
+                        }} size={24} />
                         geoffreyherman19021998@gmail.com
                     </div>
                 </div>

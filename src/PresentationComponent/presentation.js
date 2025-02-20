@@ -37,7 +37,10 @@ export function Presentation() {
                     textAlign: "left",
                 }}>
                     <br></br>
-                    <div>
+                    <div style={{
+                        whiteSpace: "normal",
+                        overflowWrap: "break-word"
+                    }}>
                         <a href="https://www.linkedin.com/in/hermangeoffrey"
                             style={{
                                 color: "rgb(29, 11, 129)"

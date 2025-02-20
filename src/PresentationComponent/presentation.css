@@ -11,6 +11,20 @@
     background: linear-gradient(to right, transparent, rgb(14, 4, 43), transparent);
 }
 
+.section {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    border: solid 3px black;
+}
+
+.title {
+    border-radius: 25px 25px 0 0;
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 h2 {
     margin: 0;
 }

@@ -1,10 +1,20 @@
 #content {
     color: white;
     height: auto;
-    background-image: linear-gradient(to bottom right, rgb(194, 95, 28), blue);
     padding: 25px;
 }
 
-h1 {
+#space {
+    margin: auto;
+    height: 2px;
+    width: 70%;
+    background: linear-gradient(to right, transparent, rgb(14, 4, 43), transparent);
+}
+
+h2 {
     margin: 0;
+}
+
+a {
+    margin-right: 20px;
 }

@@ -1,9 +1,9 @@
-#image_card{
+#image_card {
     height: 80%;
     background-size: cover;
 }
 
-#title_card{
+#title_card {
     height: 20%;
     align-content: center;
     font-weight: bold;
@@ -50,6 +50,7 @@
     font-family: Arial, sans-serif;
     font-size: 18px;
     text-align: left;
+    align-content: center;
 }
 
 .bottom-content {
@@ -58,6 +59,6 @@
     left: 0;
     width: 100%;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.1); /* Optionnel pour voir la zone */
-    text-align: center; /* Optionnel selon besoin */
+    background: rgba(0, 0, 0, 0.1);
+    text-align: center;
 }

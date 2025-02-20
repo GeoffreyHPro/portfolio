@@ -38,7 +38,7 @@ export function Presentation() {
                     padding: "15px"
                 }}>
                     Je suis Geoffrey, développeur en informatique récemment diplômé d'un Master Informatique E-Services (Développement d'applications) de
-                    l'Université de Lille. 
+                    l'Université de Lille.
                     <br></br>
                     Je suis passionné par l'informatique depuis tout petit, j'ai toujours voulu comprendre comment fonctionnait les sites internets, les logiciels et les jeux vidéos.
                     Petit, je pensais qu'une personne jouait contre moi à chaque match contre l'ordinateur... Ahah !
@@ -46,11 +46,11 @@ export function Presentation() {
                     <br></br>
                     Je suis quelqu'un qui aime apprendre et qui apprends tous les jours. Je suis dynamique, autonome, organisé, force de propositions et rigoureux dans ce que je développe.
                     Je suis un bon communicant et sais me faire comprendre en anglais. Pour moi l'esprit d'équipe est la qualité essentielle au bon développement d'un projet.
-                    J'ai de l'expérience en conception et développement de nouvelles fonctionnalités, dans l'automatisation de tests, rédaction de documentation technique... 
+                    J'ai de l'expérience en conception et développement de nouvelles fonctionnalités, dans l'automatisation de tests, rédaction de documentation technique...
                     Mais j'ai encore beaucoup à apprendre au sein de collaborateurs experts dans leur domaine.
                     <br></br>
                     <br></br>
-                    Pour moi les technologies sont un moyen et non une finalité pour mettre en place des solutions informatiques. C'est pourquoi je ne suis pas réticent à 
+                    Pour moi les technologies sont un moyen et non une finalité pour mettre en place des solutions informatiques. C'est pourquoi je ne suis pas réticent à
                     l'idée d'apprendre de nouvelles technologies, bien au contraire.
                 </div>
 
@@ -106,14 +106,18 @@ export function Presentation() {
                     <br></br>
                     <div>
                         <Phone style={{
-                            marginRight: "15px"
+                            marginRight: "15px",
+                            whiteSpace: "normal",
+                            overflowWrap: "break-word",
                         }} size={24} />
                         06 14 27 73 87
                     </div>
                     <br></br>
                     <div>
                         <Mail style={{
-                            marginRight: "15px"
+                            marginRight: "15px",
+                            whiteSpace: "normal",
+                            overflowWrap: "break-word",
                         }} size={24} />
                         geoffreyherman19021998@gmail.com
                     </div>

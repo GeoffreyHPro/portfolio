@@ -28,7 +28,7 @@ const project4 = new InformationProject(
     `Application composé d'une API REST. Cette API permet d'ajouter, de lire et de modifier des paiements
     bancaires. Si le paiement est fait ou est en cours de paiement, il n'est pas modifiable. Cette API a
     été faite en Java Reactive Spring WebFlux.`,
-    ""
+    "https://paymentexercicewebflux.onrender.com/swagger-ui.html"
 );
 
 export const listProjects = [project1, project2, project3, project4]

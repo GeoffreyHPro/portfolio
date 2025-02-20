@@ -71,7 +71,6 @@ export function Presentation() {
                 </div>
                 <div className='col-md-6 col-12' style={{
                     textAlign: "left",
-                    padding: "15px"
                 }}>
                     <br></br>
                     <div style={{
@@ -100,8 +99,10 @@ export function Presentation() {
                     </div>
                 </div>
                 <div className='col-md-6 col-12 mx-auto' style={{
-                    textAlign: "justify",
-                    padding: "15px"
+                    textAlign: "left",
+                    padding: "15px",
+                    whiteSpace: "normal",
+                    overflowWrap: "break-word",
                 }}>
                     <br></br>
                     <div>
@@ -114,11 +115,7 @@ export function Presentation() {
                     </div>
                     <br></br>
                     <div>
-                        <Mail style={{
-                            marginRight: "15px",
-                            whiteSpace: "normal",
-                            overflowWrap: "break-word",
-                        }} size={24} />
+                        <Mail size={24} />
                         geoffreyherman19021998@gmail.com
                     </div>
                 </div>

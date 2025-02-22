@@ -15,7 +15,8 @@ export function Presentation() {
             <a href={`${process.env.PUBLIC_URL}/CV_HERMAN-Geoffrey.pdf`} download class='btn' style={{
                 color: "white",
                 backgroundColor: "rgba(12, 4, 63, 0.2)",
-                border: "solid 2px white"
+                border: "solid 2px white",
+                margin: "0px"
             }}>Télécharger mon CV</a>
 
             <div style={{

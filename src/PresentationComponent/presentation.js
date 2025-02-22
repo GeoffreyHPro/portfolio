@@ -9,6 +9,7 @@ export function Presentation() {
         <div id="content">
             Bonjour, je suis
             <h1><strong>Geoffrey Herman</strong></h1>
+            Développeur Informatique Back-End | Full-Stack
             <br></br>
             <br></br>
             <br></br>

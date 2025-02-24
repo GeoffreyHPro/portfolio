@@ -12,7 +12,7 @@ export function Project() {
         <div className='container'>
             <div className='row'>
                 <div className="col-md-6 col-12">
-                    <CardProject title={"ecoFridge"} img={"ecoFridge.webp"} information={listProjects[0]} listTag={['Angular', 'Java Spring Boot', "API REST", "Test"]}></CardProject>
+                    <CardProject title={"ecoFridge"} img={"ecoFridge.webp"} information={listProjects[0]} listTag={['Angular', 'Java Spring Boot', "API REST", "Test", "JWT"]}></CardProject>
                     <br></br>
                     <br></br>
                     <CardProject title={"AnimeList"} img={"animes.webp"} information={listProjects[1]} listTag={['Flutter', 'BLoC']}></CardProject>

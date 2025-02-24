@@ -51,6 +51,12 @@ export function Tag({ tags }) {
                     "0 0 10px rgb(241, 245, 12), 0 0 20px rgb(238, 234, 18), 0 0 30px rgb(236, 240, 10)",
                     "2px solid rgba(255, 230, 5, 0.99)"
                 ];
+            case 'JWT':
+                return [
+                    'rgb(119, 119, 119)',
+                    "0 0 10px rgb(223, 22, 213), 0 0 20px rgb(231, 29, 204), 0 0 30px rgb(228, 24, 211)",
+                    "2px solid rgba(29, 223, 223, 0.99)"
+                ];
             default:
         }
     };

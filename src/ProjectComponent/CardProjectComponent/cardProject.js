@@ -19,6 +19,36 @@ export function CardProject({ title, img, information, listTag }) {
         }
         return <div></div>
     }
+
+    function getGithubUrl() {
+        if (information.urlProject.length === 2) {
+            return <>
+                <div class="col">
+                    <a href={information.urlProject[0]} style={{
+                        color: "black",
+                    }} className="flex items-center gap-2 text-gray-700 hover:text-black mt-auto">
+                        <Github size={24} />
+                    </a>
+                </div>
+                <div class="col">
+                    <a href={information.urlProject[1]} style={{
+                        color: "black",
+                    }} className="flex items-center gap-2 text-gray-700 hover:text-black mt-auto">
+                        <Github size={24} />
+                    </a>
+                </div>
+            </>
+        } else {
+            return <div class="col">
+                <a href={information.urlProject[0]} style={{
+                    color: "black",
+                }} className="flex items-center gap-2 text-gray-700 hover:text-black mt-auto">
+                    <Github size={24} />
+                </a>
+            </div>
+        }
+    }
+    let GithubTest = getGithubUrl();
     let urlTest = getUrlTest();
 
     return <div>
@@ -43,13 +73,8 @@ export function CardProject({ title, img, information, listTag }) {
                     <div class="bottom-content">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col">
-                                    <a href={information.urlProject} style={{
-                                        color: "black",
-                                    }} className="flex items-center gap-2 text-gray-700 hover:text-black mt-auto">
-                                        <Github size={24} />
-                                    </a>
-                                </div>
+                                {GithubTest}
+                                
                                 {urlTest}
                             </div>
                         </div>

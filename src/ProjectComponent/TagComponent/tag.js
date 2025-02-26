@@ -57,6 +57,12 @@ export function Tag({ tags }) {
                     "0 0 10px rgb(223, 22, 213), 0 0 20px rgb(231, 29, 204), 0 0 30px rgb(228, 24, 211)",
                     "2px solid rgba(29, 223, 223, 0.99)"
                 ];
+            case 'WebSocket':
+                return [
+                    'rgb(10, 75, 50)',
+                    "0 0 10px rgb(32, 18, 224), 0 0 20px rgb(29, 16, 214), 0 0 30px rgb(17, 24, 131)",
+                    "2px solid rgba(14, 221, 135, 0.99)"
+                ];
             default:
         }
     };

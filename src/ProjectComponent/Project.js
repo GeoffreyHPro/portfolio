@@ -15,13 +15,17 @@ export function Project() {
                     <CardProject title={"ecoFridge"} img={"ecoFridge.webp"} information={listProjects[0]} listTag={['Angular', 'Java Spring Boot', "API REST", "Test", "JWT"]}></CardProject>
                     <br></br>
                     <br></br>
+                    <CardProject title={"Paiement"} img={"paiement.jpg"} information={listProjects[3]} listTag={['Java Spring Boot', "API REST", "WebFlux", "Test"]}></CardProject>
+                    <br></br>
+                    <br></br>
                     <CardProject title={"AnimeList"} img={"animes.webp"} information={listProjects[1]} listTag={['Flutter', 'BLoC']}></CardProject>
                 </div>
                 <div className="col-md-6 col-12 mx-auto">
+                    <CardProject title={"SnapMessaging"} img={"SnapMessaging.webp"} information={listProjects[4]} listTag={['Angular','Java Spring Boot', "API REST", "WebSocket", "JWT"]}></CardProject>
+                    <br></br>
+                    <br></br>
                     <CardProject title={"BinPack"} img={"binpack.webp"} information={listProjects[2]} listTag={['Java Spring Boot', "API REST", "Test"]}></CardProject>
-                    <br></br>
-                    <br></br>
-                    <CardProject title={"Paiement"} img={"paiement.jpg"} information={listProjects[3]} listTag={['Java Spring Boot', "API REST", "WebFlux", "Test"]}></CardProject>
+                    
                 </div>
             </div>
         </div>

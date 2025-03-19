@@ -17,9 +17,9 @@ const project2 = new InformationProject(
 );
 const project3 = new InformationProject(
     ["https://github.com/GeoffreyHPro/Binpack"],
-    `Application permettant de résoudre le problème du BinPack. Pour une liste d'objets avec un poids définit,
-    un nombre de sacs avec la même capacité. Il faut avoir récupérer une liste d'emplacement des objets dans le moins 
-    de sacs possible.`,
+    `Application permettant de résoudre le problème du BinPack. Pour une configuration donnée, une solution est trouvée ou non.
+    Une configuration est composée d'une liste de poids qui définissent les objets, un nombre de sacs et le poids de chaque sac.
+    La solution sera toujours une solution avec le moins de sacs utilisés possible.`,
     "https://binpack.onrender.com/swagger-ui/index.html#/"
 );
 const project4 = new InformationProject(
@@ -30,7 +30,7 @@ const project4 = new InformationProject(
     "https://paymentexercicewebflux.onrender.com/swagger-ui.html"
 );
 const project5 = new InformationProject(
-    ["https://github.com/GeoffreyHPro/SnapMessaging_angular","https://github.com/GeoffreyHPro/SnapMessaging_back"],
+    ["https://github.com/GeoffreyHPro/SnapMessaging_angular", "https://github.com/GeoffreyHPro/SnapMessaging_back"],
     `Application de messagerie pour interagir avec différents utilisateurs instantanément. Un chat à l'accueil permet
     de communiquer avec les autres utilisateurs sans authentification. Une fois connecté, l'utilisateur peut communiquer
     avec les autres utilisateurs ajoutés.`,

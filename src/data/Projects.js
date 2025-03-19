@@ -1,12 +1,11 @@
 import { InformationProject } from '../interface/InformationProject'
 
 const project1 = new InformationProject(
-    ["https://github.com/GeoffreyHPro/ecoFridge"],
-    `Application permettant de recenser tous les aliments de son frigo. 
-    Lors d'un ajout d'un nouvel élément, la date de péremption est ajouté avec.
-    Tous les aliments sont consultables à travers de l'application.
-    L'application vise à limiter le gaspillage alimentaire.`,
-    ""
+    ["https://github.com/GeoffreyHPro/ecoFridge_front", "https://github.com/GeoffreyHPro/ecoFridge_back"],
+    `Application qui vise à limiter le gaspillage alimentaire. Chaque utilisateur peut alimenter la base 
+    de données des produits. Il peut ainsi ajouter des lots de produits qu'il a acheté dans son frigo.
+    Il renseigne la quantité, la date de péremption associée au code bare du produit.`,
+    "https://ecofridge-front.onrender.com"
 );
 
 const project2 = new InformationProject(
